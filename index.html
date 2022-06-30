@@ -146,7 +146,7 @@
     
                                 <li class="survay__item">
                                     <label class="control">
-                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="local" required>
+                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="problem" required>
                                         <span class="survay-control-mark"></span>
                                         <span class="control__label">О проблеме и ее решении</span>
                                     </label>
@@ -154,7 +154,7 @@
     
                                 <li class="survay__item">
                                     <label class="control">
-                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="guest" required>
+                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="city-idea" required>
                                         <span class="survay-control-mark"></span>
                                         <span class="control__label">О идее города</span>
                                     </label>
@@ -162,7 +162,7 @@
     
                                 <li class="survay__item">
                                     <label class="control">
-                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="guest" required>
+                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="unique-place" required>
                                         <span class="survay-control-mark"></span>
                                         <span class="control__label">Об уникальных интересных местах Находки</span>
                                     </label>
@@ -186,12 +186,12 @@
                         <fieldset class="survey__field survay-idea-field">
                             <span class="idea__subtitle survey__subtitle">Укажите тему и расскажите идею</span>
                             <div class="survay-idea__wrapper">
-                                <input class="idea__theme" type="text" placeholder="Тема" required>
-                                <textarea class="idea-text" placeholder="Идея" required></textarea>
+                                <input class="idea__theme" type="text" name="user-theme" placeholder="Тема" required>
+                                <textarea class="idea-text" id="user-idea" placeholder="Идея" required></textarea>
                                 <label class="control">
-                                    <input class="terms-of-use visually-hidden" type="checkbox" required>
+                                    <input class="terms-of-use visually-hidden" id="userTerms" type="checkbox" required>
                                     <span class="survay-control-mark"></span>
-                                    <span class="survay-idea__terms">Я согласен с 
+                                    <span class="survay-idea__terms" value="userTerm">Я согласен с 
                                         <a href="#">политикой обработки персональных данных</a>
                                     </span>
                                 </label>
@@ -236,5 +236,6 @@
             </div>
         </div>
     </footer>
+    <script src="./src/index.js"></script>
 </body>
 </html>
