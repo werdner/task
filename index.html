@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Находка, опрос, обсуждения, идеи">
+    <meta name="description" content="Поделитесь идеей с находкой 2030">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>Находка 2030</title>
+</head>
+<body class="page">
+
+    <header class="page-header">
+        <nav class="main-nav">
+            <div class="main-nav__wrapper">
+                <a class="page-header__logo" href="#">
+                    <img src="./src/assets/header/header__logo.svg" alt="Логотип Находка 2030" width="196" height="52">
+                    <span></span>
+                </a>
+                <ul class="main-nav__list nav-list">
+                    <li class="main-nav__item">
+                        <a href="#">О Находке</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Пройдите опрос</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Проекты Находки</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Обсуждения</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Новости</a>
+                    </li>
+                </ul>
+                <button class="main-nav__menu" type="button"></button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <div class="page-main__wrapper">
+
+            <section class="page-main__title">
+                <div class="page-main__title__wrapper">
+                    <a class="backword__link" href="#">Назад</a>
+                    <h1 class="page__title">Поделитесь идеей</h1>
+                </div>
+            </section>
+            <section class="survey">
+                <div class="survey__wrapper">
+                    <h2 class="visually-hidden">Анкета для опроса жителей о проекте плана комплексного социально-экономического развития Находки.</h2>
+                    <form class="survey__form" action="">
+    
+                        <fieldset class="survey__field">
+                            <span class="survey__subtitle">Расскажите кем вы приходитесь городу</span>
+                            <ul class=" survey__list">
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-status" value="local" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">Местный житель</span>
+                                    </label>
+                                </li>
+    
+                                <li class="status__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-status" value="guest" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">Гость города</span>
+                                    </label>
+                                </li>
+    
+                            </ul>
+                        </fieldset>
+    
+                        <fieldset class="survey__field">
+                            <span class="survey__subtitle">Ваш возраст</span>
+                            <ul class="survey__list">
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value="under-18" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">До 18</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value="19-25" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">19-25</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value="26-35" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">26-35</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value="36-45" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">36-45</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value="46-55" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">46-55</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value="56-65" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">56-65</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-age" value=”greater-60” required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">Больше 66</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+    
+                        <fieldset class="survey__field">
+                            <span class="story__subtitle survey__subtitle">Вы хотите рассказать</span>
+    
+                            <ul class="survey__list">
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="local" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">О проблеме и ее решении</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="guest" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">О идее города</span>
+                                    </label>
+                                </li>
+    
+                                <li class="survay__item">
+                                    <label class="control">
+                                        <input class="survay__input visually-hidden" type="radio" name="user-story" value="guest" required>
+                                        <span class="survay-control-mark"></span>
+                                        <span class="control__label">Об уникальных интересных местах Находки</span>
+                                    </label>
+                                </li>
+    
+                            </ul>
+                        </fieldset>
+    
+                        <fieldset class="survey__field survay__location">
+                            <span class="survey__subtitle">Загрузите картинку и укажите место на карте</span>
+                            <ul class="location__list">
+                                <li class="location__item">
+                                    <a href="#">Указать геолокацию</a>
+                                </li>
+                                <li class="location__item">
+                                    <a href="#">Добавить изображение</a>
+                                </li>
+                            </ul>
+                        </fieldset>
+    
+                        <fieldset class="survey__field survay-idea-field">
+                            <span class="idea__subtitle survey__subtitle">Укажите тему и расскажите идею</span>
+                            <div class="survay-idea__wrapper">
+                                <input class="idea__theme" type="text" placeholder="Тема" required>
+                                <textarea class="idea-text" placeholder="Идея" required></textarea>
+                                <label class="control">
+                                    <input class="terms-of-use visually-hidden" type="checkbox" required>
+                                    <span class="survay-control-mark"></span>
+                                    <span class="survay-idea__terms">Я согласен с 
+                                        <a href="#">политикой обработки персональных данных</a>
+                                    </span>
+                                </label>
+                            </div>
+                        </fieldset>
+    
+                        <button class="submit-form__button" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="page-footer__wrapper">
+            <a class="page-footer__logo" href="#">
+                <img src="./src/assets/footer/footer__logo.svg" alt="Логотип Находка 2030" width="376" height="100">
+            </a>
+            <section class="page-footer__nav">
+                <h2 class="visually-hidden">Навигация в подвале сайта</h2>
+                <ul class="footer-nav__list nav-list">
+                    <li class="footer-nav__item">
+                        <a href="#">О находке</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">Пройдите опрос</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">План комплексного развития</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">Обсуждения</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#">Новости</a>
+                    </li>
+                </ul>
+            </section>
+            <div class="page-footer__contacts">
+                <a class="contacts__mail" href="mailto:call@my-nakhodka.ru">call@my-nakhodka.ru</a>
+                <small>Политика обработки персональных данных</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
